@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Download Jelbi Editor 1.3 for Android. Installation instructions, update notes and a QR code for your phone.">
+  <meta name="theme-color" content="#12263a">
+  <title>Install Jelbi Editor</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #12263a; background: #fff; line-height: 1.6; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main, footer { width: min(100% - 3rem, 64rem); margin-inline: auto; }
+    main { padding-block: 4rem 2rem; }
+    .intro { display: grid; grid-template-columns: minmax(0, 1fr) 15rem; gap: 3rem; align-items: center; padding-bottom: 3rem; }
+    h1 { margin: 0 0 1rem; max-width: 12ch; font-size: clamp(2.6rem, 6vw, 4.5rem); line-height: 1.08; letter-spacing: -.045em; }
+    h2 { margin: 0 0 1rem; font-size: 1.5rem; line-height: 1.25; letter-spacing: -.02em; }
+    p { margin: 0 0 1rem; }
+    .version { font-weight: 650; }
+    .summary { max-width: 36rem; font-size: 1.1rem; }
+    .download { display: inline-block; margin-block: .5rem 1rem; padding: .85rem 1.5rem; color: #12263a; background: #ffdf00; border: 2px solid #12263a; border-radius: .25rem; font-weight: 750; text-decoration: none; }
+    .download:hover { background: #f4d300; }
+    a { color: #164b76; text-underline-offset: .18em; }
+    a:hover { text-decoration-thickness: .14em; }
+    a:focus-visible { outline: 3px solid #164b76; outline-offset: 5px; }
+    .files { font-size: .9rem; }
+    figure { margin: 0; text-align: center; }
+    figure a { display: inline-block; }
+    figure img { display: block; width: 224px; max-width: 100%; height: auto; }
+    figcaption { margin-top: .5rem; font-size: .9rem; }
+    .details { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 3rem; padding-block: 2.5rem; border-top: 2px solid #12263a; }
+    ol, ul { margin: 0; padding-left: 1.4rem; }
+    li { padding-left: .2rem; margin-bottom: .65rem; }
+    .notice { padding-left: 1.2rem; border-left: 4px solid #ffdf00; max-width: 55rem; }
+    footer { padding-block: 2rem; border-top: 1px solid #c4ced6; font-size: .85rem; overflow-wrap: anywhere; }
+    footer p { margin: 0; }
+    @media (max-width: 42rem) {
+      main, footer { width: min(100% - 2rem, 34rem); }
+      main { padding-top: 2.5rem; }
+      .intro, .details { grid-template-columns: minmax(0, 1fr); gap: 2rem; }
+      .intro { padding-bottom: 2rem; }
+      figure { justify-self: start; text-align: left; }
+      figure img { width: 184px; }
+      .details { padding-block: 2rem; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="intro">
+      <section aria-labelledby="title">
+        <h1 id="title">Jelbi Editor</h1>
+        <p class="version">Version 1.3 · Android 8.0 or later</p>
+        <p class="summary">Create Before/After station reports on your phone. The app works offline.</p>
+        <a class="download" href="https://github.com/dlr-1337/jelbi-editor-downloads/releases/download/v1.3/Jelbi-Editor-1.3.apk">Download for Android</a>
+        <p class="files"><a href="https://github.com/dlr-1337/jelbi-editor-downloads/releases/download/v1.3/Jelbi-Editor-1.3.apk.sha256">SHA-256 checksum</a> · <a href="https://github.com/dlr-1337/jelbi-editor-downloads/releases/tag/v1.3">Release notes</a></p>
+      </section>
+      <figure>
+        <a href="https://dlr-1337.github.io/jelbi-editor-downloads/" aria-label="Open the Jelbi Editor installation page"><img src="install-qr.png" width="360" height="360" alt="QR code for this installation page"></a>
+        <figcaption>Scan to open this page on your phone.</figcaption>
+      </figure>
+    </div>
+
+    <div class="details">
+      <section aria-labelledby="install">
+        <h2 id="install">Install or update</h2>
+        <ol>
+          <li>Open this page on your Android phone and download the APK.</li>
+          <li>Open the downloaded file. If Android asks, allow your browser or file manager to install apps from this source.</li>
+          <li>Choose <strong>Install</strong> or <strong>Update</strong> in the Android installer.</li>
+        </ol>
+        <p><strong>Already using Jelbi Editor?</strong> Install over the existing app to keep your history and draft. Do not uninstall it first.</p>
+      </section>
+      <section aria-labelledby="changes">
+        <h2 id="changes">What’s new in 1.3</h2>
+        <ul>
+          <li>A wider Before/After camera view, including 0.5× when your phone exposes a compatible lens. The available factor may vary; gallery import remains available.</li>
+          <li>A station-name guide and a crop preview before accepting the sign photo.</li>
+          <li>The Jelbi logo without the white rectangle.</li>
+        </ul>
+        <p>Existing history images stay unchanged. Older draft previews need to be generated again; photos and quantities are kept.</p>
+      </section>
+    </div>
+
+    <aside class="notice" aria-label="Installation warnings">
+      <p><strong>Keep Play Protect enabled.</strong> If Android shows a security warning, stop and send its exact text or a screenshot, your phone model, Android version, country and the APK filename to the person who shared this page. A warning needs to be identified before it can be assessed.</p>
+    </aside>
+  </main>
+  <footer>
+    <p>Jelbi Editor 1.3 · Build 4 · Android 8.0+ (API 26)<br>Installation page: <a href="https://dlr-1337.github.io/jelbi-editor-downloads/">dlr-1337.github.io/jelbi-editor-downloads/</a></p>
+  </footer>
+</body>
+</html>
