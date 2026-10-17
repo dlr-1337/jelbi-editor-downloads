@@ -24,6 +24,10 @@ This repository contains only the installation page, QR images and public releas
 
 Install over the existing app using the same package and signing certificate. Do not uninstall first: uninstalling removes the private history and draft.
 
-The original installation warning has not been identified. Request its exact text or screenshot, device model, Android version, country and exact APK filename before diagnosing it. Do not describe the warning as a false positive or tell users to disable Play Protect. A normal “install apps from this source” permission and a security detection are different prompts.
+The installation page distinguishes personal phones from company-managed phones. An “Action not allowed / Contact your IT admin” block requires the company’s authorized distribution process; a public link or QR does not grant approval.
+
+The Play Protect warning saying it has not seen apps from this developer before matches Google’s **Uncommon** category. Keep Play Protect enabled, stop on a block and report the exact message and environment. Do not describe a classification as a proven false positive or recommend “Install anyway”. Browser download warnings, source-install permission and Play Protect classifications are separate prompts.
+
+Guidance updated on 17 October 2026. The public APK remains version 1.3/build 4, SHA-256 `e59a97a11554d8d5970c3fe554a8dba5bf6015ab80b0527ae72ad50fa810f22c`, certificate SHA-256 `94536cb805b64eeb9fe79977645281f6e04d14109faddcf1e0d113e069464a2a`. No application changes or new signing key were needed for this documentation update.
 
 Camera field of view and installation warnings require validation on the affected physical phones; emulators do not establish either outcome.

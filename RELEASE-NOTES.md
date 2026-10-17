@@ -11,4 +11,8 @@ Install this update over Jelbi Editor 1.2. Do not uninstall the existing app fir
 
 History images remain unchanged. Older draft previews require regeneration; the draft photos and quantities are retained.
 
-If Android displays a security warning, keep Play Protect enabled and report its exact text or screenshot, phone model, Android version, country and APK filename. The original warning is still awaiting identification.
+Installation guidance updated on 17 October 2026; APK unchanged:
+
+- On company-managed phones, an “Action not allowed / Contact your IT admin” block requires IT approval and an authorized internal distribution channel.
+- On personal phones, stop if Play Protect blocks installation and keep it enabled. Report the exact text or screenshot, model, Android/One UI version, country and APK filename. The warning about not having seen apps from this developer matches Google’s Uncommon category and requires assessment.
+- The public link and QR help locate the APK; they do not override company policy or Play Protect. Do not uninstall the app to update it.
