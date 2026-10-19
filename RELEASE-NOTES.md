@@ -1,18 +1,14 @@
-# Jelbi Editor 1.3
+# Jelbi Editor 1.4
 
-Build 4 · Android 8.0 or later · English · Offline
+Build 5 · Android 8.0 or later · English · Offline
 
-- Added a wider Before/After camera option when a compatible lens is available, including 0.5× on supported phones. Some phones expose a different factor or do not expose a wide lens to apps. Gallery import remains available.
-- Added a station-name frame and a review of the final sign crop before accepting the photo.
-- Removed the white rectangle behind the Jelbi logo.
-- Kept the JPEG report format at 1080 × 1350, quality 90.
+- Corrected the WhatsApp support recipient opened from Help; the app does not send messages automatically.
+- Updated the app header, opening screen and launcher icons with the supplied yellow J/helmet artwork.
+- Preserved the approved JPEG layout and transparent horizontal report logo.
+- Added explicit Android API boundaries to gallery compatibility checks.
 
-Install this update over Jelbi Editor 1.2. Do not uninstall the existing app first. The package and signing certificate must match the previous release for an in-place update.
+Install over Jelbi Editor 1.3 without uninstalling. Same package and signing certificate. History, photos, counts and current layout-4 draft previews remain available. No database migration or history-image conversion.
 
-History images remain unchanged. Older draft previews require regeneration; the draft photos and quantities are retained.
+APK SHA-256: `b1b9a15de21e2e12241e72dacba428478fc69a5f96d1368d7baea54a532af1b7`.
 
-Installation guidance updated on 17 October 2026; APK unchanged:
-
-- On company-managed phones, an “Action not allowed / Contact your IT admin” block requires IT approval and an authorized internal distribution channel.
-- On personal phones, stop if Play Protect blocks installation and keep it enabled. Report the exact text or screenshot, model, Android/One UI version, country and APK filename. The warning about not having seen apps from this developer matches Google’s Uncommon category and requires assessment.
-- The public link and QR help locate the APK; they do not override company policy or Play Protect. Do not uninstall the app to update it.
+Keep Play Protect enabled. Company-managed phones still require IT authorization and an approved distribution channel. A public link, a signed update or a successful emulator test does not establish physical-device installation approval. Historical scans and the Google review submitted for 1.3 are not results for this new APK.
